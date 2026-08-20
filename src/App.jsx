@@ -418,15 +418,15 @@ function App() {
 
             <div className="flex gap-8 mb-8">
               <div>
-                <h3 className="text-3xl font-bold text-red-400"><Counter end={10} />+</h3>
+                <h3 className="text-3xl font-bold text-red-400"><Counter end={4} />+</h3>
                 <p className="text-slate-400 text-sm">Projects</p>
               </div>
               <div>
-                <h3 className="text-3xl font-bold text-red-400"><Counter end={2} />+</h3>
+                <h3 className="text-3xl font-bold text-red-400"><Counter end={1} /></h3>
                 <p className="text-slate-400 text-sm">Years Learning</p>
               </div>
               <div>
-                <h3 className="text-3xl font-bold text-red-400"><Counter end={8} />+</h3>
+                <h3 className="text-3xl font-bold text-red-400"><Counter end={6} />+</h3>
                 <p className="text-slate-400 text-sm">Technologies</p>
               </div>
             </div>
@@ -461,7 +461,7 @@ function App() {
             <div>
               <h3 className="text-red-400 font-semibold mb-4">Frontend Development</h3>
               <div className="flex flex-wrap gap-3">
-                {["JavaScript", "React", "HTML5", "CSS3"].map((skill) => (
+                {["JavaScript", "React", "HTML",].map((skill) => (
                   <span key={skill} className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-sm hover:border-red-400 transition">
                     {skill}
                   </span>
@@ -472,7 +472,7 @@ function App() {
             <div>
               <h3 className="text-red-400 font-semibold mb-4">Backend & Languages</h3>
               <div className="flex flex-wrap gap-3">
-                {["Node.js", "Java", "C++", "Python"].map((skill) => (
+                {["Node.js", "Java", "Python"].map((skill) => (
                   <span key={skill} className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-sm hover:border-red-400 transition">
                     {skill}
                   </span>
@@ -483,7 +483,7 @@ function App() {
             <div>
               <h3 className="text-red-400 font-semibold mb-4">Database</h3>
               <div className="flex flex-wrap gap-3">
-                {["SQL", "MongoDB"].map((skill) => (
+                {["SQL"].map((skill) => (
                   <span key={skill} className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-sm hover:border-red-400 transition">
                     {skill}
                   </span>
@@ -716,7 +716,7 @@ function App() {
           </p>
 
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:chiranjeevih39@gmail.com"
             className="relative z-10 bg-red-500 hover:bg-red-600 transition px-8 py-3 rounded-lg font-medium mb-8"
           >
             Say Hello
